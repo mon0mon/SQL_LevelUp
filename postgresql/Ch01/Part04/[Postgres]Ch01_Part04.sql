@@ -6,7 +6,7 @@
 -- 실행 계획이 SQL 구문의 성능을 결정
 
 -- 1. 실행 계획 확인 방법
-DROP TABLE IF EXISTS Shops;
+DROP TABLE IF EXISTS Shops CASCADE;
 CREATE TABLE Shops
 (
     shop_id   CHAR(5) PRIMARY KEY ,

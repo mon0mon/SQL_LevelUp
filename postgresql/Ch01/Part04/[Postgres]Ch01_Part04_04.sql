@@ -7,6 +7,7 @@
 
 -- 4. 간단한 테이블 결합의 실행 계획
 
+DROP TABLE IF EXISTS Reservations CASCADE;
 CREATE TABLE Reservations
 (
     reserve_id   INTEGER NOT NULL,
